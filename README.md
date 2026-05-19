@@ -30,13 +30,13 @@ You give it two files — your new product spreadsheet and your existing Shopify
 
 **Via Claude Code plugin system:**
 ```bash
-/plugin marketplace add mazen/shopify-product-import-that-works
-/plugin install shopify-product-import@mazen-skills
+/plugin marketplace add mmeziad/shopify-product-import-that-works
+/plugin install shopify-product-import@mmeziad-skills
 ```
 
 **Or manually:**
 ```bash
-git clone https://github.com/mazen/shopify-product-import-that-works ~/.claude/skills/shopify-product-import
+git clone https://github.com/mmeziad/shopify-product-import-that-works ~/.claude/skills/shopify-product-import
 ```
 
 ---
