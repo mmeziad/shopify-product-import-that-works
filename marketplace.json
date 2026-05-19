@@ -1,0 +1,20 @@
+{
+  "name": "mazen-skills",
+  "description": "Practical Claude skills for e-commerce workflows",
+  "owner": "mazen",
+  "plugins": [
+    {
+      "name": "shopify-product-import",
+      "description": "Transform any product spreadsheet into a clean Shopify import CSV. Handles variants, multiple images, column mapping, duplicate detection, and generates a test file before the full import.",
+      "version": "1.0.0",
+      "author": "Mazen",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mazen/shopify-product-import-that-works",
+        "directory": "shopify-product-import"
+      },
+      "category": "e-commerce",
+      "tags": ["shopify", "csv", "import", "products", "variants", "e-commerce"]
+    }
+  ]
+}
